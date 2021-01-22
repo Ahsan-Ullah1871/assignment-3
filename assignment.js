@@ -1,6 +1,8 @@
+//  https://github.com/Ahsan-Ullah1871/assignment-3
+
 // kilometerToMeter Function start from here:
 function kilometerToMeter(kilometer) {
-	// if value of kilometaer is negative than return this worning!!
+	// if value of kilometaer is negative than return this warning!!
 	if (kilometer < 1) {
 		return "Wrong!!Kilometers cannot be negative values !!";
 	}
