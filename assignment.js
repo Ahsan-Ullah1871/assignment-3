@@ -101,5 +101,3 @@ function megaFriend(name) {
 		return largeName;
 	}
 }
-
-console.log(megaFriend([]));
