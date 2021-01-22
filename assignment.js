@@ -6,7 +6,7 @@ function kilometerToMeter(kilometer) {
 	if (kilometer < 1) {
 		return "Wrong!!Kilometers cannot be negative values !!";
 	}
-	// IF value of kilometer is positive then calculate to meter by this methos:
+	// IF value of kilometer is positive then calculate to meter by this Methods:
 	else {
 		var calculator = kilometer * 1000;
 		return calculator;
