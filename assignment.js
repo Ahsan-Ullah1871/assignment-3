@@ -94,21 +94,11 @@ function megaFriend(name) {
 	}
 	// This warning will show if there is no element in the array:
 	if (numberOfLetter == 0) {
-		console.log(
-			"Hello Man!! You are not on the right track because you did not give a name to the array!!"
-		);
+		return "Hello Man!! You are not on the right track because you did not give a name to the array!!";
 	}
 	// If there are two or more elements in the array, the big name will show the comparison:
 	else {
 		return largeName;
 	}
 }
-var na = [
-	"Ahsan Ullah",
-	"Sakib Mahmud",
-	"Shamim Choudhuri",
-	"Sheikh Habibullah",
-	"Sheikh   Habibuppah       ",
-];
-var res = megaFriend(na);
-console.log(res);
+console.log(megaFriend([]));
